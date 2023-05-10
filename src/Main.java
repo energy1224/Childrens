@@ -29,12 +29,12 @@ public class Main {
     }
     public static void findBiggestParent(ArrayList<Persons> persons1) {
         persons1.sort(Comparator.comparing(Persons::getChildrens));
-        System.out.println("Самые многодетные родители:");
+        System.out.println("Самые многодетные  родители:");
         System.out.println(persons1.get(persons1.size() - 1));
         System.out.println(persons1.get(persons1.size() - 2));
     }
     public static void culcAverageAge(ArrayList<Persons> persons1){
-        System.out.println("Средний возраст родителей с детьми:");
+        System.out.println("Средний возраст родителей с детьми составляет:");
         int sumAge = 0;
         int sumPerson = 0;
         for (int i = 0; i < persons1.size(); i++) {
