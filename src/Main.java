@@ -24,7 +24,7 @@ public class Main {
             culcAverageAge(persons1);
 
         } catch (FileNotFoundException e) {
-            System.out.println("File not found");
+            System.out.println("File  has not found");
         }
     }
     public static void findBiggestParent(ArrayList<Persons> persons1) {
